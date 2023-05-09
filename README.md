@@ -1,1 +1,1 @@
-# js-module2
+# goit-js-hw-06
