@@ -49,3 +49,49 @@
 
 // BREAK ПРЕРЫВАЕТ ПОЛНОСТЬЮ ЦИКЛ
 // если есть BREAK, то else не нужен
+
+
+// МЕТОД slice НЕ ИЗМЕНЯЕТ ТО, НА ЧЕМ ОН ВЫЗЫВАЕТСЯ. ОН ВОЗВРАЩАЕТ НОВУЮ КОПИЮ
+
+
+
+// МЕТОД МАССИВА - join (берет каждый элемент массива и сшивает в одну строку)
+// const friends = [`Mango`, `Kiwi`, `Poly`, `Ajax`];
+// const string = friends.join(" ");
+// console.log(string);
+
+
+
+// МЕТОД МАССИВА - split (берет строку и разбивает на элементы)
+// const string = `JavaScript`;
+// const letters = string.split(``);
+// console.log(letters);
+
+
+
+// МЕТОД МАССИВА - concat (сшивает 2 массива)
+// const array1 = [5, 10, 15, 20];
+// const array2 = [10, 20, 30];
+// let sum = 0;
+// const numbers = array1.concat(array2);
+// for (const number of numbers) {
+//     sum += number;
+// }
+// console.log(sum);
+
+
+
+// МЕТОД МАССИВА - splice (удаляет, добавляет, изменяет элементы массива в произвольном месте)
+// const cards = [
+//     `Карточка-1`,
+//     `Карточка-2`,
+//     `Карточка-3`,
+//     `Карточка-4`,
+//     `Карточка-5`,
+// ]
+// console.table(cards);
+// const cardToRemove = `Карточка-3`;
+// const index = cards.indexOf(cardToRemove);
+// console.log(index);
+// cards.splice(index, 1);
+// console.table(cards);

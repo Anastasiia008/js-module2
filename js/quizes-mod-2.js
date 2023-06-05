@@ -66,3 +66,59 @@
 // console.log(bigNumber);
 
 
+
+// СКРИПТ, КОТОРЫЙ ОБЪЕДИНЯЕТ ВСЕ ЭЛЕМЕНТЫ МАССИВА В ОДНОСТРОКОВОЕ ЗНАЧЕНИЕ
+// лучше делать через join
+// const friends = [`Mango`, `Kiwi`, `Poly`, `Ajax`];
+// let string = ``;
+// for (const friend of friends) {
+//     string += friend + `,`;
+// }
+// string = string.slice(0, string.length - 1);
+// console.log(string);
+
+
+
+
+// СКРИПТ, КОТОРЫЙ ЗАМЕНЯЕТ РЕГИСТР КАЖДОГО СИМВОЛА В СТРОКЕ
+// const string = `JavaScript`;
+// // old school решение
+// const letters = string.split(``);
+// let invertedString = ``;
+// console.log(letters);
+// for (const letter of letters) {
+//     // console.log(letter);
+    
+//     // if (letter === letter.toLowerCase()) {
+//     //     invertedString += letter.toUpperCase();
+//     // } else {
+//     //     invertedString += letter.toLowerCase();
+//     // }
+
+
+//     const isEqual = letter === letter.toLowerCase();
+//     invertedString += isEqual ? letter.toUpperCase() : letter.toLowerCase();
+// }
+
+// console.log("invertedString", invertedString);
+
+
+
+
+// СКРИПТ, КОТОРЫЙ ДЕЛАЕТ SLUG В URL ИЗ НАЗВАНИЯ СТАТЬИ
+// const title = `Top 10 benefits of React framework`;
+// const normalizeTitle = title.toLowerCase().split(``).join(`-`);
+// console.log(normalizeTitle);
+
+
+
+// СКРИПТ, КОТОРЫЙ СЧИТАЕТ СУММУ ДВУХ МАССИВОВ
+// const array1 = [5, 10, 15, 20];
+// const array2 = [10, 20, 30];
+// let sum = 0;
+
+// const numbers = array1.concat(array2);
+// for (const number of numbers) {
+//     sum += number;
+// }
+// console.log(sum);
